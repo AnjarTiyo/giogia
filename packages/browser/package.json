@@ -1,5 +1,5 @@
 {
-  "name": "@giogia/browser",
+  "name": "@anjartiyo/giogia-browser",
   "version": "0.1.0",
   "type": "module",
   "description": "Playwright browser adapter for GioGia",
@@ -26,7 +26,7 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@giogia/core": "*",
+    "@anjartiyo/giogia-core": "*",
     "playwright": "^1.52.0"
   }
 }

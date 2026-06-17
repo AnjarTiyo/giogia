@@ -1,4 +1,4 @@
-import type { AIProvider } from '@giogia/core'
+import type { AIProvider } from '@anjartiyo/giogia-core'
 
 export interface ChatMessage {
   role: 'system' | 'user' | 'assistant'

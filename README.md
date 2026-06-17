@@ -42,12 +42,12 @@ pnpm test
 
 | Package | Description |
 |---------|-------------|
-| `@giogia/core` | Shared types and interfaces |
-| `@giogia/browser` | Playwright adapter, browser management |
-| `@giogia/semantic` | Snapshot store, locator resolver, POM |
-| `@giogia/ai` | AI providers, explorer, generator, healer |
-| `@giogia/runner` | Test runner, assertions, DSL, reporting |
-| `@giogia/cli` | CLI (Commander.js) |
+| `@anjartiyo/giogia-core` | Shared types and interfaces |
+| `@anjartiyo/giogia-browser` | Playwright adapter, browser management |
+| `@anjartiyo/giogia-semantic` | Snapshot store, locator resolver, POM |
+| `@anjartiyo/giogia-ai` | AI providers, explorer, generator, healer |
+| `@anjartiyo/giogia-runner` | Test runner, assertions, DSL, reporting |
+| `@anjartiyo/giogia-cli` | CLI (Commander.js) |
 
 ## Architecture
 

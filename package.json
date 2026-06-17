@@ -8,7 +8,7 @@
     "tests"
   ],
   "scripts": {
-    "build": "npm run build --workspaces",
+    "build": "npm run build -w @anjartiyo/giogia-core && npm run build -w @anjartiyo/giogia-browser -w @anjartiyo/giogia-semantic -w @anjartiyo/giogia-ai && npm run build -w @anjartiyo/giogia-runner && npm run build -w @anjartiyo/giogia-cli",
     "test": "vitest run",
     "test:watch": "vitest",
     "lint": "tsc -b --noEmit",

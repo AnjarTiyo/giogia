@@ -1,4 +1,4 @@
-import type { SemanticElement, LocatorStrategy, ResolveOptions } from '@giogia/core'
+import type { SemanticElement, LocatorStrategy, ResolveOptions } from '@anjartiyo/giogia-core'
 
 const DEFAULT_STRATEGIES: LocatorStrategy[] = [
   'semantic-id',

@@ -1,5 +1,5 @@
 {
-  "name": "@giogia/ai",
+  "name": "@anjartiyo/giogia-ai",
   "version": "0.1.0",
   "type": "module",
   "description": "AI provider abstraction for GioGia - explore, generate, heal",
@@ -26,6 +26,6 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@giogia/core": "*"
+    "@anjartiyo/giogia-core": "*"
   }
 }

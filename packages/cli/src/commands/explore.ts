@@ -1,7 +1,7 @@
 import { Command } from 'commander'
 import chalk from 'chalk'
-import { BrowserManager, PlaywrightAdapter } from '@giogia/browser'
-import { Explorer, ProviderRegistry } from '@giogia/ai'
+import { BrowserManager, PlaywrightAdapter } from '@anjartiyo/giogia-browser'
+import { Explorer, ProviderRegistry } from '@anjartiyo/giogia-ai'
 import { promises as fs } from 'node:fs'
 import path from 'node:path'
 

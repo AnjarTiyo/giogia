@@ -1,4 +1,4 @@
-import type { TestReport, TestResult } from '@giogia/core'
+import type { TestReport, TestResult } from '@anjartiyo/giogia-core'
 import { promises as fs } from 'node:fs'
 import path from 'node:path'
 

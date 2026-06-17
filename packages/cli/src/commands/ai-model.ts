@@ -1,6 +1,6 @@
 import { Command } from 'commander'
 import chalk from 'chalk'
-import { ProviderRegistry } from '@giogia/ai'
+import { ProviderRegistry } from '@anjartiyo/giogia-ai'
 
 export function aiModelCommand(): Command {
   return new Command('model')

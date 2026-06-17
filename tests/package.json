@@ -1,13 +1,13 @@
 {
-  "name": "@giogia/tests",
+  "name": "@anjartiyo/giogia-tests",
   "private": true,
   "type": "module",
   "scripts": {
     "build": "echo ok"
   },
   "dependencies": {
-    "@giogia/runner": "*",
-    "@giogia/browser": "*"
+    "@anjartiyo/giogia-runner": "*",
+    "@anjartiyo/giogia-browser": "*"
   },
   "devDependencies": {
     "vitest": "^3.0.0"

@@ -1,6 +1,6 @@
 import { Command } from 'commander'
 import chalk from 'chalk'
-import { BrowserManager } from '@giogia/browser'
+import { BrowserManager } from '@anjartiyo/giogia-browser'
 
 export function doctorCommand(): Command {
   return new Command('doctor')

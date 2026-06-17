@@ -1,6 +1,6 @@
 import { Command } from 'commander'
 import chalk from 'chalk'
-import { BrowserManager, PlaywrightAdapter } from '@giogia/browser'
+import { BrowserManager, PlaywrightAdapter } from '@anjartiyo/giogia-browser'
 
 export function inspectCommand(): Command {
   return new Command('inspect <url>')

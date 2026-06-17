@@ -23,7 +23,7 @@ describe('TestGenerator', () => {
 
   it('fromNaturalLanguage generates DSL test code', async () => {
     const testCode = `
-import { gio } from '@giogia/runner'
+import { gio } from '@anjartiyo/giogia-runner'
 
 describe('Login Flow', () => {
   it('should login as admin', async () => {

@@ -1,4 +1,4 @@
-import type { SemanticElement } from '@giogia/core'
+import type { SemanticElement } from '@anjartiyo/giogia-core'
 import { ProviderRegistry } from './providers/registry.js'
 
 export interface HealingResult {

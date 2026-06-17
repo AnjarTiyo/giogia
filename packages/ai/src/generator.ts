@@ -1,4 +1,4 @@
-import type { GeneratedTest, BDDScenario } from '@giogia/core'
+import type { GeneratedTest, BDDScenario } from '@anjartiyo/giogia-core'
 import { ProviderRegistry } from './providers/registry.js'
 
 export class TestGenerator {

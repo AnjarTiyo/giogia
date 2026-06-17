@@ -1,4 +1,4 @@
-import type { PageSnapshot, ExploratoryReport, DiscoveredFlow } from '@giogia/core'
+import type { PageSnapshot, ExploratoryReport, DiscoveredFlow } from '@anjartiyo/giogia-core'
 import { ProviderRegistry } from './providers/registry.js'
 
 export class Explorer {

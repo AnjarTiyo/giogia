@@ -2,7 +2,7 @@ import { describe, it, expect, vi, beforeEach } from 'vitest'
 import { LocatorHealer } from '../healer.js'
 import { ProviderRegistry } from '../providers/registry.js'
 import type { AIProviderClient, CompletionResponse } from '../providers/types.js'
-import type { SemanticElement } from '@giogia/core'
+import type { SemanticElement } from '@anjartiyo/giogia-core'
 
 function createMockClient(responseText: string): AIProviderClient {
   return {

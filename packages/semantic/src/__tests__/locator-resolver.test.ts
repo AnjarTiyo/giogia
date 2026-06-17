@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest'
 import { LocatorResolver } from '../locator-resolver.js'
-import type { SemanticElement } from '@giogia/core'
+import type { SemanticElement } from '@anjartiyo/giogia-core'
 
 const elements: SemanticElement[] = [
   {

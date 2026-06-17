@@ -1,4 +1,4 @@
-import type { AIProvider } from '@giogia/core'
+import type { AIProvider } from '@anjartiyo/giogia-core'
 import type { AIProviderClient } from './types.js'
 import { OpenAIProvider } from './openai.js'
 import { AnthropicProvider } from './anthropic.js'

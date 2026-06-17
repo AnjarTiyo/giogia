@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest'
 import { PageModelGenerator } from '../page-model.js'
-import type { PageSnapshot } from '@giogia/core'
+import type { PageSnapshot } from '@anjartiyo/giogia-core'
 
 describe('PageModelGenerator', () => {
   const snapshot: PageSnapshot = {

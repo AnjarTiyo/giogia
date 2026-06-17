@@ -1,5 +1,5 @@
 import { describe, it, expect, afterEach } from 'vitest'
-import { BrowserManager } from '@giogia/browser'
+import { BrowserManager } from '@anjartiyo/giogia-browser'
 import { Assertions } from '../assertions.js'
 
 describe('Assertions', () => {

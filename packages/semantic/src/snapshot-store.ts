@@ -1,4 +1,4 @@
-import type { PageSnapshot, SemanticElement } from '@giogia/core'
+import type { PageSnapshot, SemanticElement } from '@anjartiyo/giogia-core'
 import { promises as fs } from 'node:fs'
 import path from 'node:path'
 

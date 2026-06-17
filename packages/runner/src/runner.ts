@@ -1,5 +1,5 @@
-import { BrowserManager } from '@giogia/browser'
-import type { TestResult } from '@giogia/core'
+import { BrowserManager } from '@anjartiyo/giogia-browser'
+import type { TestResult } from '@anjartiyo/giogia-core'
 import { GioDSL } from './gio-dsl.js'
 import { Reporter } from './reporter.js'
 

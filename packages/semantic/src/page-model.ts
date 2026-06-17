@@ -1,4 +1,4 @@
-import type { PageSnapshot, SemanticElement } from '@giogia/core'
+import type { PageSnapshot, SemanticElement } from '@anjartiyo/giogia-core'
 
 export interface PageModelClass {
   name: string
@@ -33,7 +33,7 @@ export class PageModelGenerator {
 
   private buildClassSource(className: string, elements: PageModelElement[]): string {
     const lines: string[] = [
-      `import { gio } from '@giogia/semantic'`,
+      `import { gio } from '@anjartiyo/giogia-semantic'`,
       '',
       `export class ${className} {`,
     ]

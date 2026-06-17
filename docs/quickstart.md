@@ -33,7 +33,7 @@ GioGia Doctor
 Create `tests/my-first.spec.ts`:
 
 ```ts
-import { TestRunner } from '@giogia/runner'
+import { TestRunner } from '@anjartiyo/giogia-runner'
 
 const runner = new TestRunner({ headless: true })
 

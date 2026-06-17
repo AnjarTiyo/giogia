@@ -1,5 +1,5 @@
 {
-  "name": "@giogia/runner",
+  "name": "@anjartiyo/giogia-runner",
   "version": "0.1.0",
   "type": "module",
   "description": "Test runner, GioDSL, assertions, and HTML reporter for GioGia",
@@ -26,9 +26,9 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@giogia/core": "*",
-    "@giogia/browser": "*",
-    "@giogia/semantic": "*",
+    "@anjartiyo/giogia-core": "*",
+    "@anjartiyo/giogia-browser": "*",
+    "@anjartiyo/giogia-semantic": "*",
     "playwright": "^1.52.0"
   }
 }

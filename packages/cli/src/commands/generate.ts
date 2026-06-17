@@ -1,6 +1,6 @@
 import { Command } from 'commander'
 import chalk from 'chalk'
-import { TestGenerator, ProviderRegistry } from '@giogia/ai'
+import { TestGenerator, ProviderRegistry } from '@anjartiyo/giogia-ai'
 import { promises as fs } from 'node:fs'
 import path from 'node:path'
 

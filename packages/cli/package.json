@@ -1,5 +1,5 @@
 {
-  "name": "@giogia/cli",
+  "name": "@anjartiyo/giogia-cli",
   "version": "0.1.0",
   "type": "module",
   "description": "GioGia CLI - AI-first web test automation",
@@ -29,11 +29,11 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@giogia/core": "*",
-    "@giogia/browser": "*",
-    "@giogia/semantic": "*",
-    "@giogia/ai": "*",
-    "@giogia/runner": "*",
+    "@anjartiyo/giogia-core": "*",
+    "@anjartiyo/giogia-browser": "*",
+    "@anjartiyo/giogia-semantic": "*",
+    "@anjartiyo/giogia-ai": "*",
+    "@anjartiyo/giogia-runner": "*",
     "commander": "^13.0.0",
     "chalk": "^5.4.0"
   }

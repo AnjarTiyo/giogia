@@ -1,6 +1,6 @@
 import { describe, it, expect, beforeEach } from 'vitest'
 import { SnapshotStore } from '../snapshot-store.js'
-import type { PageSnapshot } from '@giogia/core'
+import type { PageSnapshot } from '@anjartiyo/giogia-core'
 import { promises as fs } from 'node:fs'
 import path from 'node:path'
 import os from 'node:os'

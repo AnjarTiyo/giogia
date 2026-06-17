@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { TestRunner } from '@giogia/runner'
+import { TestRunner } from '@anjartiyo/giogia-runner'
 import path from 'node:path'
 import { pathToFileURL } from 'node:url'
 

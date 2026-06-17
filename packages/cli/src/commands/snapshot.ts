@@ -1,7 +1,7 @@
 import { Command } from 'commander'
 import chalk from 'chalk'
-import { BrowserManager, PlaywrightAdapter } from '@giogia/browser'
-import { SnapshotStore } from '@giogia/semantic'
+import { BrowserManager, PlaywrightAdapter } from '@anjartiyo/giogia-browser'
+import { SnapshotStore } from '@anjartiyo/giogia-semantic'
 
 export function snapshotCommand(): Command {
   return new Command('snapshot <url>')

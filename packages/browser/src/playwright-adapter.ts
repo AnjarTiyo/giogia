@@ -1,5 +1,5 @@
 import { Page } from 'playwright'
-import type { SemanticElement, PageSnapshot } from '@giogia/core'
+import type { SemanticElement, PageSnapshot } from '@anjartiyo/giogia-core'
 
 export class PlaywrightAdapter {
   constructor(private page: Page) {}

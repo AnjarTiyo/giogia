@@ -1,5 +1,5 @@
 {
-  "name": "@giogia/semantic",
+  "name": "@anjartiyo/giogia-semantic",
   "version": "0.1.0",
   "type": "module",
   "description": "Semantic locator engine and snapshot store for GioGia",
@@ -26,6 +26,6 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@giogia/core": "*"
+    "@anjartiyo/giogia-core": "*"
   }
 }

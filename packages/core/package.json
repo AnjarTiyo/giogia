@@ -1,5 +1,5 @@
 {
-  "name": "@giogia/core",
+  "name": "@anjartiyo/giogia-core",
   "version": "0.1.0",
   "type": "module",
   "description": "Shared types and interfaces for GioGia",
