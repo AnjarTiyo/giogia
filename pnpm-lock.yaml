@@ -58,10 +58,31 @@ importers:
 
   packages/cli:
     dependencies:
+      '@giogia/ai':
+        specifier: workspace:*
+        version: link:../ai
+      '@giogia/browser':
+        specifier: workspace:*
+        version: link:../browser
+      '@giogia/core':
+        specifier: workspace:*
+        version: link:../core
+      '@giogia/runner':
+        specifier: workspace:*
+        version: link:../runner
+      '@giogia/semantic':
+        specifier: workspace:*
+        version: link:../semantic
+      chalk:
+        specifier: ^5.4.0
+        version: 5.6.2
       commander:
         specifier: ^13.0.0
         version: 13.1.0
     devDependencies:
+      '@types/node':
+        specifier: ^22.0.0
+        version: 22.19.21
       tsup:
         specifier: ^8.0.0
         version: 8.5.1(postcss@8.5.15)(typescript@5.9.3)
@@ -500,6 +521,10 @@ packages:
   chai@5.3.3:
     resolution: {integrity: sha512-4zNhdJD/iOjSH0A05ea+Ke6MU5mmpQcbQsSOkgdaUMJ9zTlDTD/GYlwohmIE2u0gaxHYiVHEn1Fw9mZ/ktJWgw==}
     engines: {node: '>=18'}
+
+  chalk@5.6.2:
+    resolution: {integrity: sha512-7NzBL0rN6fMUW+f7A6Io4h40qQlG+xGmtMxfbnH/K7TAtt8JQWVQK+6g0UXKMeVJoyV5EkkNsErQ8pVD3bLHbA==}
+    engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
 
   check-error@2.1.3:
     resolution: {integrity: sha512-PAJdDJusoxnwm1VwW07VWwUN1sl7smmC3OKggvndJFadxxDRyFJBX/ggnu/KE4kQAB7a3Dp8f/YXC1FlUprWmA==}
@@ -1095,6 +1120,8 @@ snapshots:
       deep-eql: 5.0.2
       loupe: 3.2.1
       pathval: 2.0.1
+
+  chalk@5.6.2: {}
 
   check-error@2.1.3: {}
 
