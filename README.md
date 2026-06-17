@@ -7,8 +7,8 @@ AI-first web test automation framework.
 ## Quick Start
 
 ```bash
-pnpm install
-pnpm -r build
+npm install
+npm run build
 
 # Validate environment
 node packages/cli/dist/index.js doctor
@@ -20,7 +20,7 @@ node packages/cli/dist/index.js snapshot https://example.com
 node packages/cli/dist/index.js inspect https://example.com
 
 # Run all tests
-pnpm test
+npm test
 ```
 
 ## Commands
