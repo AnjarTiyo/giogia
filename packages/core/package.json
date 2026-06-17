@@ -18,18 +18,11 @@
       "types": "./dist/index.d.ts"
     }
   },
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "keywords": ["testing", "automation", "semantic", "web"],
   "scripts": {
     "build": "tsup",
     "clean": "rm -rf dist",
     "test": "vitest run"
-  },
-  "devDependencies": {
-    "tsup": "^8.0.0",
-    "typescript": "^5.7.0",
-    "vitest": "^3.0.0"
   }
 }

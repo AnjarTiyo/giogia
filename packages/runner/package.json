@@ -18,9 +18,7 @@
       "types": "./dist/index.d.ts"
     }
   },
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "keywords": ["testing", "runner", "assertions", "dsl", "reporting"],
   "scripts": {
     "build": "tsup",
@@ -28,14 +26,9 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@giogia/core": "workspace:*",
-    "@giogia/browser": "workspace:*",
-    "@giogia/semantic": "workspace:*",
+    "@giogia/core": "*",
+    "@giogia/browser": "*",
+    "@giogia/semantic": "*",
     "playwright": "^1.52.0"
-  },
-  "devDependencies": {
-    "tsup": "^8.0.0",
-    "typescript": "^5.7.0",
-    "vitest": "^3.0.0"
   }
 }

@@ -18,9 +18,7 @@
       "types": "./dist/index.d.ts"
     }
   },
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "keywords": ["testing", "playwright", "browser", "automation"],
   "scripts": {
     "build": "tsup",
@@ -28,12 +26,7 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@giogia/core": "workspace:*",
+    "@giogia/core": "*",
     "playwright": "^1.52.0"
-  },
-  "devDependencies": {
-    "tsup": "^8.0.0",
-    "typescript": "^5.7.0",
-    "vitest": "^3.0.0"
   }
 }

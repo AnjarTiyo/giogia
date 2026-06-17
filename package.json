@@ -3,12 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "description": "AI-first web test automation framework",
+  "workspaces": [
+    "packages/*",
+    "tests"
+  ],
   "scripts": {
-    "build": "pnpm -r build",
+    "build": "npm run build --workspaces",
     "test": "vitest run",
     "test:watch": "vitest",
     "lint": "tsc -b --noEmit",
-    "clean": "pnpm -r clean"
+    "clean": "npm run clean --workspaces"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",
