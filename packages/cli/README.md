@@ -6,38 +6,38 @@ GioGia CLI - AI-first web test automation framework.
 
 ```bash
 npm install -g @anjartiyo/giogia-cli
-gio doctor
+giogia doctor
 ```
 
 ## Commands
 
 | Command | Description |
 |---------|-------------|
-| `gio install` | Install browser dependencies |
-| `gio doctor` | Validate environment |
-| `gio ai login` | Configure AI provider |
-| `gio ai model` | Select AI model |
-| `gio inspect <url>` | Analyze page structure |
-| `gio snapshot <url>` | Capture semantic snapshot |
-| `gio explore <url>` | AI exploratory testing |
-| `gio generate <file>` | Generate tests from specs |
-| `gio test` | Execute tests |
-| `gio report` | View test report |
+| `giogia install` | Install browser dependencies |
+| `giogia doctor` | Validate environment |
+| `giogia ai login` | Configure AI provider |
+| `giogia ai model` | Select AI model |
+| `giogia inspect <url>` | Analyze page structure |
+| `giogia snapshot <url>` | Capture semantic snapshot |
+| `giogia explore <url>` | AI exploratory testing |
+| `giogia generate <file>` | Generate tests from specs |
+| `giogia test` | Execute tests |
+| `giogia report` | View test report |
 
 ## Quick Example
 
 ```bash
 # Capture snapshot
-gio snapshot https://example.com/login
+giogia snapshot https://example.com/login
 
 # AI explore
-gio explore https://example.com/login
+giogia explore https://example.com/login
 
 # Generate and run tests
 echo "Login as admin, verify dashboard" > spec.md
-gio generate spec.md
-gio test
-gio report
+giogia generate spec.md
+giogia test
+giogia report
 ```
 
 ## Test Authoring

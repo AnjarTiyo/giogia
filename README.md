@@ -11,13 +11,13 @@ AI-first web test automation framework.
 npm i -g @anjartiyo/giogia-cli
 
 # Verify
-gio doctor
+giogia doctor
 
 # Capture snapshot
-gio snapshot https://example.com
+giogia snapshot https://example.com
 
 # Run tests
-gio test
+giogia test
 ```
 
 ## Development
@@ -33,16 +33,16 @@ npm test
 
 | Command | Description |
 |---------|-------------|
-| `gio install` | Install browser dependencies |
-| `gio doctor` | Validate environment |
-| `gio ai login` | Configure AI provider |
-| `gio ai model` | Select AI model |
-| `gio inspect <url>` | Analyze page structure |
-| `gio snapshot <url>` | Capture semantic snapshot |
-| `gio explore <url>` | AI exploratory testing |
-| `gio generate <file>` | Generate tests from specs |
-| `gio test` | Execute tests |
-| `gio report` | View test report |
+| `giogia install` | Install browser dependencies |
+| `giogia doctor` | Validate environment |
+| `giogia ai login` | Configure AI provider |
+| `giogia ai model` | Select AI model |
+| `giogia inspect <url>` | Analyze page structure |
+| `giogia snapshot <url>` | Capture semantic snapshot |
+| `giogia explore <url>` | AI exploratory testing |
+| `giogia generate <file>` | Generate tests from specs |
+| `giogia test` | Execute tests |
+| `giogia report` | View test report |
 
 ## Packages
 
