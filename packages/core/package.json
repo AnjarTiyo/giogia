@@ -1,6 +1,6 @@
 {
   "name": "@anjartiyo/giogia-core",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "type": "module",
   "description": "Shared types and interfaces for GioGia",
   "license": "ISC",
@@ -18,8 +18,16 @@
       "types": "./dist/index.d.ts"
     }
   },
-  "files": ["dist", "README.md"],
-  "keywords": ["testing", "automation", "semantic", "web"],
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "keywords": [
+    "testing",
+    "automation",
+    "semantic",
+    "web"
+  ],
   "scripts": {
     "build": "tsup",
     "clean": "rm -rf dist",

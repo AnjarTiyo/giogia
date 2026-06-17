@@ -1,6 +1,6 @@
 {
   "name": "@anjartiyo/giogia-ai",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "type": "module",
   "description": "AI provider abstraction for GioGia - explore, generate, heal",
   "license": "ISC",
@@ -18,8 +18,17 @@
       "types": "./dist/index.d.ts"
     }
   },
-  "files": ["dist", "README.md"],
-  "keywords": ["testing", "ai", "openai", "anthropic", "automation"],
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "keywords": [
+    "testing",
+    "ai",
+    "openai",
+    "anthropic",
+    "automation"
+  ],
   "scripts": {
     "build": "tsup",
     "clean": "rm -rf dist",

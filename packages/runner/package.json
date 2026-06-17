@@ -1,6 +1,6 @@
 {
   "name": "@anjartiyo/giogia-runner",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "type": "module",
   "description": "Test runner, GioDSL, assertions, and HTML reporter for GioGia",
   "license": "ISC",
@@ -18,8 +18,17 @@
       "types": "./dist/index.d.ts"
     }
   },
-  "files": ["dist", "README.md"],
-  "keywords": ["testing", "runner", "assertions", "dsl", "reporting"],
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "keywords": [
+    "testing",
+    "runner",
+    "assertions",
+    "dsl",
+    "reporting"
+  ],
   "scripts": {
     "build": "tsup",
     "clean": "rm -rf dist",

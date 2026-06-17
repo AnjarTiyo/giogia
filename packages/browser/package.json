@@ -1,6 +1,6 @@
 {
   "name": "@anjartiyo/giogia-browser",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "type": "module",
   "description": "Playwright browser adapter for GioGia",
   "license": "ISC",
@@ -18,8 +18,16 @@
       "types": "./dist/index.d.ts"
     }
   },
-  "files": ["dist", "README.md"],
-  "keywords": ["testing", "playwright", "browser", "automation"],
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "keywords": [
+    "testing",
+    "playwright",
+    "browser",
+    "automation"
+  ],
   "scripts": {
     "build": "tsup",
     "clean": "rm -rf dist",
