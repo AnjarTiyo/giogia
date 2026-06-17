@@ -1,8 +1,15 @@
 {
   "name": "@giogia/browser",
   "version": "0.1.0",
-  "private": true,
   "type": "module",
+  "description": "Playwright browser adapter for GioGia",
+  "license": "ISC",
+  "author": "Anjar Tiyo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnjarTiyo/giogia.git",
+    "directory": "packages/browser"
+  },
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {
@@ -11,6 +18,10 @@
       "types": "./dist/index.d.ts"
     }
   },
+  "files": [
+    "dist"
+  ],
+  "keywords": ["testing", "playwright", "browser", "automation"],
   "scripts": {
     "build": "tsup",
     "clean": "rm -rf dist",

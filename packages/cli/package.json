@@ -1,11 +1,30 @@
 {
   "name": "@giogia/cli",
   "version": "0.1.0",
-  "private": true,
   "type": "module",
+  "description": "GioGia CLI - AI-first web test automation",
+  "license": "ISC",
+  "author": "Anjar Tiyo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnjarTiyo/giogia.git",
+    "directory": "packages/cli"
+  },
   "bin": {
     "gio": "./dist/index.js"
   },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": ["testing", "cli", "automation", "ai", "playwright"],
   "scripts": {
     "build": "tsup",
     "clean": "rm -rf dist",
