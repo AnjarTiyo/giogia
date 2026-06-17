@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest'
 import { execSync } from 'node:child_process'
 
-const CLI_PATH = './dist/index.js'
+const CLI_PATH = new URL('../../dist/index.js', import.meta.url).pathname
 
 describe('CLI', () => {
   it('prints help with no arguments', () => {

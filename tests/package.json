@@ -1,0 +1,12 @@
+{
+  "name": "@giogia/tests",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@giogia/runner": "workspace:*",
+    "@giogia/browser": "workspace:*"
+  },
+  "devDependencies": {
+    "vitest": "^3.0.0"
+  }
+}
