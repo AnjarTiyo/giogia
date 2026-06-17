@@ -1,6 +1,6 @@
 {
   "name": "@anjartiyo/giogia-runner",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "type": "module",
   "description": "Test runner, GioDSL, assertions, and HTML reporter for GioGia",
   "license": "ISC",
