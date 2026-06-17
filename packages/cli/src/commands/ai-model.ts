@@ -26,6 +26,6 @@ export function aiModelCommand(): Command {
       console.log('')
       console.log(`Current: ${registry.getModel()}`)
       console.log('')
-      console.log(`Run ${chalk.cyan('gio ai model -m <model>')} to change`)
+      console.log(`Run ${chalk.cyan('giogia ai model -m <model>')} to change`)
     })
 }

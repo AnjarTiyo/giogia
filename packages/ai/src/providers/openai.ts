@@ -14,7 +14,7 @@ export class OpenAIProvider implements AIProviderClient {
 
   async complete(req: CompletionRequest): Promise<CompletionResponse> {
     if (!this.apiKey) {
-      throw new Error('OpenAI API key not configured. Run `gio ai login`.')
+      throw new Error('OpenAI API key not configured. Run `giogia ai login`.')
     }
 
     const response = await fetch('https://api.openai.com/v1/chat/completions', {

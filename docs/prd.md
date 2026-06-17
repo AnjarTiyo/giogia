@@ -158,7 +158,7 @@ Need:
 ## Installation
 
 ```bash
-gio install
+giogia install
 ```
 
 Installs GioGia runtime and browser dependencies.
@@ -168,7 +168,7 @@ Installs GioGia runtime and browser dependencies.
 ## Environment Validation
 
 ```bash
-gio doctor
+giogia doctor
 ```
 
 Validates:
@@ -192,7 +192,7 @@ Example:
 ## AI Authentication
 
 ```bash
-gio ai login
+giogia ai login
 ```
 
 Configure AI provider credentials.
@@ -210,7 +210,7 @@ Supported providers (V1):
 ## AI Model Selection
 
 ```bash
-gio ai model
+giogia ai model
 ```
 
 Select active model.
@@ -233,7 +233,7 @@ Current: GPT-5
 ## Inspect
 
 ```bash
-gio inspect <url>
+giogia inspect <url>
 ```
 
 Analyze page structure.
@@ -259,7 +259,7 @@ forgot_password_link
 ## Snapshot
 
 ```bash
-gio snapshot <url>
+giogia snapshot <url>
 ```
 
 Generate semantic snapshot.
@@ -291,7 +291,7 @@ Example:
 ## Explore
 
 ```bash
-gio explore <url>
+giogia explore <url>
 ```
 
 AI-driven exploratory testing.
@@ -330,7 +330,7 @@ Potential Issues:
 ## Generate
 
 ```bash
-gio generate <file>
+giogia generate <file>
 ```
 
 Generate tests from:
@@ -360,7 +360,7 @@ or executable test plan.
 ## Test
 
 ```bash
-gio test
+giogia test
 ```
 
 Execute tests deterministically.
@@ -385,7 +385,7 @@ Required for CI/CD compatibility.
 ## Report
 
 ```bash
-gio report
+giogia report
 ```
 
 Generate execution reports.
@@ -539,11 +539,11 @@ Benefits:
 ## GitHub Actions
 
 ```yaml
-- run: gio install
+- run: giogia install
 
-- run: gio test
+- run: giogia test
 
-- run: gio report
+- run: giogia report
 ```
 
 ---
@@ -552,7 +552,7 @@ Benefits:
 
 ```yaml
 script:
-  - gio test
+  - giogia test
 ```
 
 ---
@@ -560,7 +560,7 @@ script:
 ## Jenkins
 
 ```bash
-gio test
+giogia test
 ```
 
 ---

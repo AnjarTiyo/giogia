@@ -23,7 +23,7 @@ export class ProviderRegistry {
     }
     const client = this.providers.get(provider)!
     if (!client.isConfigured()) {
-      throw new Error(`Provider "${provider}" not configured. Run \`gio ai login\`.`)
+      throw new Error(`Provider "${provider}" not configured. Run \`giogia ai login\`.`)
     }
     this.activeProvider = provider
   }

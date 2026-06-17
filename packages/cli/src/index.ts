@@ -14,7 +14,7 @@ import { reportCommand } from './commands/report.js'
 const program = new Command()
 
 program
-  .name('gio')
+  .name('giogia')
   .description('GioGia - AI-first web test automation framework')
   .version('0.1.0')
 

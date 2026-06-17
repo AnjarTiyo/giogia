@@ -19,7 +19,7 @@ export function testCommand(): Command {
         await fs.access(testDir)
       } catch {
         console.log(chalk.yellow(`No tests directory found at ${testDir}`))
-        console.log('Create test files or run `gio generate` to create tests.')
+        console.log('Create test files or run `giogia generate` to create tests.')
         process.exit(0)
       }
 

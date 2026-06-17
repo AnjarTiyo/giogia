@@ -20,7 +20,7 @@ export function reportCommand(): Command {
         console.log(`Open with: ${chalk.cyan(`open ${indexPath}`)}`)
       } catch {
         console.log(chalk.yellow(`No report found at ${indexPath}`))
-        console.log(`Run ${chalk.cyan('gio test')} first to generate results.`)
+        console.log(`Run ${chalk.cyan('giogia test')} first to generate results.`)
       }
     })
 }

@@ -14,7 +14,7 @@ export class AnthropicProvider implements AIProviderClient {
 
   async complete(req: CompletionRequest): Promise<CompletionResponse> {
     if (!this.apiKey) {
-      throw new Error('Anthropic API key not configured. Run `gio ai login`.')
+      throw new Error('Anthropic API key not configured. Run `giogia ai login`.')
     }
 
     const systemMsg = req.messages.find(m => m.role === 'system')

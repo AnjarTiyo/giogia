@@ -22,7 +22,7 @@ export function generateCommand(): Command {
           registry.configure('anthropic', process.env.ANTHROPIC_API_KEY)
           registry.setActive('anthropic')
         } else {
-          console.log(chalk.red('No AI provider configured. Run `gio ai login`.'))
+          console.log(chalk.red('No AI provider configured. Run `giogia ai login`.'))
           process.exit(1)
         }
       } catch (error) {

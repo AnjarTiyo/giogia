@@ -17,8 +17,8 @@ export function installCommand(): Command {
         console.log(chalk.green('✓ GioGia installed successfully'))
         console.log('')
         console.log('Next steps:')
-        console.log(`  ${chalk.cyan('gio doctor')} - validate environment`)
-        console.log(`  ${chalk.cyan('gio ai login')} - configure AI provider`)
+        console.log(`  ${chalk.cyan('giogia doctor')} - validate environment`)
+        console.log(`  ${chalk.cyan('giogia ai login')} - configure AI provider`)
       } catch (error) {
         console.error(chalk.red('Installation failed:'), error)
         process.exit(1)

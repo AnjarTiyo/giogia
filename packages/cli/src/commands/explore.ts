@@ -18,7 +18,7 @@ export function exploreCommand(): Command {
         const aiKey = process.env.OPENAI_API_KEY || process.env.ANTHROPIC_API_KEY
         if (!aiKey) {
           console.log(chalk.red('No AI provider configured.'))
-          console.log(`Run ${chalk.cyan('gio ai login')} first.`)
+          console.log(`Run ${chalk.cyan('giogia ai login')} first.`)
           process.exit(1)
         }
 

@@ -13,7 +13,7 @@ export function doctorCommand(): Command {
       const browserOk = await BrowserManager.isInstalled()
       console.log(browserOk
         ? chalk.green('✓ Browser installed')
-        : chalk.red('✗ Browser not installed - run `gio install`'))
+        : chalk.red('✗ Browser not installed - run `giogia install`'))
 
       // Check runtime
       const nodeVersion = process.version
@@ -26,7 +26,7 @@ export function doctorCommand(): Command {
       const aiKey = process.env.OPENAI_API_KEY || process.env.ANTHROPIC_API_KEY
       console.log(aiKey
         ? chalk.green('✓ AI configured')
-        : chalk.yellow('⚠ AI not configured - run `gio ai login`'))
+        : chalk.yellow('⚠ AI not configured - run `giogia ai login`'))
 
       // Check project
       console.log(chalk.green('✓ Project initialized'))
