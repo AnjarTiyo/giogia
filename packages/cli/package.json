@@ -21,7 +21,7 @@
       "types": "./dist/index.d.ts"
     }
   },
-  "files": ["dist"],
+  "files": ["dist", "README.md"],
   "keywords": ["testing", "cli", "automation", "ai", "playwright"],
   "scripts": {
     "build": "tsup",
