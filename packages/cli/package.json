@@ -1,6 +1,6 @@
 {
   "name": "@anjartiyo/giogia-cli",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "type": "module",
   "description": "GioGia CLI - AI-first web test automation",
   "license": "ISC",

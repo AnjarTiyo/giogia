@@ -1,6 +1,6 @@
 {
   "name": "@anjartiyo/giogia-ai",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "type": "module",
   "description": "AI provider abstraction for GioGia - explore, generate, heal",
   "license": "ISC",

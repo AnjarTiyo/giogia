@@ -1,6 +1,6 @@
 {
   "name": "@anjartiyo/giogia-browser",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "type": "module",
   "description": "Playwright browser adapter for GioGia",
   "license": "ISC",

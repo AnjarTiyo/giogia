@@ -1,6 +1,6 @@
 {
   "name": "@anjartiyo/giogia-semantic",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "type": "module",
   "description": "Semantic locator engine and snapshot store for GioGia",
   "license": "ISC",
