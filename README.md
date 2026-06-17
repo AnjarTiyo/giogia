@@ -7,19 +7,25 @@ AI-first web test automation framework.
 ## Quick Start
 
 ```bash
+# Install CLI globally
+npm i -g @anjartiyo/giogia-cli
+
+# Verify
+gio doctor
+
+# Capture snapshot
+gio snapshot https://example.com
+
+# Run tests
+gio test
+```
+
+## Development
+
+```bash
+git clone <repo-url>
 npm install
 npm run build
-
-# Validate environment
-node packages/cli/dist/index.js doctor
-
-# Capture page snapshot
-node packages/cli/dist/index.js snapshot https://example.com
-
-# Inspect page structure
-node packages/cli/dist/index.js inspect https://example.com
-
-# Run all tests
 npm test
 ```
 
